@@ -1,0 +1,15 @@
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\bin\Debug\net8.0\ConsoleAppsHM.exe
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\bin\Debug\net8.0\ConsoleAppsHM.deps.json
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\bin\Debug\net8.0\ConsoleAppsHM.runtimeconfig.json
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\bin\Debug\net8.0\ConsoleAppsHM.dll
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\bin\Debug\net8.0\ConsoleAppsHM.pdb
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\ConsoleAppsHM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\ConsoleAppsHM.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\ConsoleAppsHM.AssemblyInfo.cs
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\ConsoleAppsHM.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\ConsoleAppsHM.sourcelink.json
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\ConsoleAppsHM.dll
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\refint\ConsoleAppsHM.dll
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\ConsoleAppsHM.pdb
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\ConsoleAppsHM.genruntimeconfig.cache
+C:\Users\User\RiderProjects\ConsoleAppsHM\ConsoleAppsHM\obj\Debug\net8.0\ref\ConsoleAppsHM.dll
