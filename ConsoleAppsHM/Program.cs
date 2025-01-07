@@ -1,9 +1,12 @@
-﻿namespace ConsoleAppsHM;
+﻿using AirplaneManagement;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        var airplane = new Airplane();
+
+        airplane.SetAirplaneDetails("Boeing 737", "Boeing", 1967, "Passenger");
+        Console.WriteLine(airplane.ToString());
     }
 }
