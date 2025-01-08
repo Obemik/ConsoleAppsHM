@@ -1,9 +1,13 @@
-﻿namespace ConsoleAppsHM;
+﻿using WebsiteNamespace;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        var website = new Website();
+
+        website.SetWebsiteData("Google", "https://www.google.com", "Search Engine", "8.8.8.8");
+
+        Console.WriteLine(website.GetWebsiteInfo());
     }
 }
