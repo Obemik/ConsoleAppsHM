@@ -1,9 +1,13 @@
-﻿namespace ConsoleAppsHM;
+﻿using StoreNamespace;  
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        var store = new Store();
+
+        store.SetStoreData("Tech Store", "123 Main St, City", "A store selling electronics and gadgets.", "123-456-7890", "contact@techstore.com");
+
+        Console.WriteLine(store.GetStoreInfo());
     }
 }
