@@ -1,9 +1,13 @@
-﻿namespace ConsoleAppsHM;
+﻿using SquareGenerator;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        int sideLength = 5;
+        char symbol = '*';
+
+        string square = Square.GenerateSquare(sideLength, symbol);
+        Console.WriteLine(square);
     }
 }
