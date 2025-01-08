@@ -1,9 +1,13 @@
-﻿namespace ConsoleAppsHM;
+﻿using JournalNamespace; 
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        var journal = new Journal();
+
+        journal.SetJournalData("Tech Magazine", 2005, "A magazine about technology and innovation.", "123-456-7890", "contact@techmag.com");
+
+        Console.WriteLine(journal.GetJournalInfo());
     }
 }
