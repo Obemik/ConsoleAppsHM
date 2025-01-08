@@ -11,4 +11,4 @@ class Program
         Console.WriteLine($"Maximum value: {matrix.GetMaximum()}");
         Console.WriteLine($"Minimum value: {matrix.GetMinimum()}");
     }
-}
+} 
