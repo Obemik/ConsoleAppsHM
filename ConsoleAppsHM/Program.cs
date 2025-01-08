@@ -1,9 +1,18 @@
-﻿namespace ConsoleAppsHM;
+﻿using PalindromeChecker;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        int number = 1221;
+
+        if (Palindrome.IsPalindrome(number))
+        {
+            Console.WriteLine($"{number} is a palindrome.");
+        }
+        else
+        {
+            Console.WriteLine($"{number} is not a palindrome.");
+        }
     }
 }
