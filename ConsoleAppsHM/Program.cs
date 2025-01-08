@@ -1,9 +1,26 @@
-﻿namespace ConsoleAppsHM;
+﻿using System;
+using LogicExpressionApp;
 
-class Program
+namespace LogicExpressionApp
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main()
+        {
+            Console.WriteLine("Enter a logical expression (e.g., 3 > 2): ");
+            string expression = Console.ReadLine();
+
+            var evaluator = new LogicEvaluator();
+
+            try
+            {
+                bool result = evaluator.EvaluateExpression(expression);
+                Console.WriteLine($"Result: {result}");
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
     }
 }
