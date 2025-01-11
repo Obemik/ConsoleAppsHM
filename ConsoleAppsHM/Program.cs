@@ -1,9 +1,20 @@
-﻿namespace ConsoleAppsHM;
+﻿using System;
+using WorkerNamespace;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        Worker[] workers = {
+            new President("Alice"),
+            new Security("Bob"),
+            new Manager("Charlie"),
+            new Engineer("Diana")
+        };
+
+        foreach (var worker in workers)
+        {
+            worker.Print();
+        }
     }
 }
