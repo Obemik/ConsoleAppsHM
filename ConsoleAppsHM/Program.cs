@@ -1,9 +1,13 @@
-﻿namespace ConsoleAppsHM;
+﻿using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        int[] numbers = { 1, 2, 3, 4, 5 };
+        var array = new Array(numbers);
+
+        array.Show();
+        array.Show("Current array elements");
     }
 }
