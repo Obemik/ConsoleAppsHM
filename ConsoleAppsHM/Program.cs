@@ -1,9 +1,13 @@
-﻿namespace ConsoleAppsHM;
+﻿using System;
+using ArrayManagement; 
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        var intArray = new IntArray(new[] { 1, 2, 3, 4, 5, 6 });
+
+        intArray.ShowEven();
+        intArray.ShowOdd();
     }
 }
