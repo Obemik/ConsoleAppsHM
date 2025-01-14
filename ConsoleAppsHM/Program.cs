@@ -1,9 +1,20 @@
-﻿namespace ConsoleAppsHM;
+﻿using System;
 
-class Program
+namespace LambdaExample
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            string text = "This is an example of a simple text checking program.";
+            string wordToFind = "example";
+
+            Func<string, string, bool> containsWord = (inputText, word) =>
+                !string.IsNullOrWhiteSpace(inputText) && inputText.Contains(word, StringComparison.OrdinalIgnoreCase);
+
+            bool result = containsWord(text, wordToFind);
+
+            Console.WriteLine($"Does the text contain the word \"{wordToFind}\"? {result}");
+        }
     }
 }
