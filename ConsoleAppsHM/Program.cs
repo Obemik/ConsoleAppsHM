@@ -1,9 +1,17 @@
-﻿namespace ConsoleAppsHM;
+﻿using System;
+using System.Linq;
 
-class Program
+namespace LambdaExample
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            int[] numbers = { -1, 2, 3, -4, 5, 0, 7, -8 };
+
+            var count = numbers.Count(n => n > 0);
+
+            Console.WriteLine($"Count of positive numbers: {count}");
+        }
     }
 }
